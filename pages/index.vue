@@ -143,9 +143,7 @@ onMounted(async () => {
 
               <!-- Subtitle -->
               <div class="relative mt-4">
-                <div class="blur-text text-2xl font-semibold">
-                  {{ displayedSubtitle }}
-                </div>
+                <div class="blur-text text-2xl font-semibold">Subtitle</div>
                 <div class="text-2xl font-semibold">
                   {{ displayedSubtitle }}
                 </div>
