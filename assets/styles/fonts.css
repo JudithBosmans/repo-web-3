@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bokor&display=swap");
 
 .titleText {
-  font-family: "Helvetica", system-ui;
   font-weight: 800;
   font-style: normal;
   line-height: 10vh;
@@ -9,20 +8,32 @@
 
 .pageTitle {
   font-size: 5em;
-  font-family: "Helvetica", sans-serif;
   font-weight: 700;
   font-style: normaæ©l;
   line-height: normal;
 }
 
-.bodyText {
-  font-size: 13px;
-  font-family: "Helvetica", sans-serif;
+.subtitle {
+  font-size: 36px;
   font-weight: 300;
 
   letter-spacing: 0.2px;
   font-style: normal;
-  line-height: 20px;
+  line-height: normal;
+}
+
+.bodyText {
+  font-size: 14px;
+  font-weight: 300;
+
+  letter-spacing: 0.2px;
+  font-style: normal;
+  line-height: 25px;
+}
+
+.bodyBold {
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .navText {

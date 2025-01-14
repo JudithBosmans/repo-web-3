@@ -1,6 +1,10 @@
 <script setup>
 import { ref, onMounted } from "vue";
+
 import About from "../components/About.vue";
+import Skills from "../components/Skills.vue";
+import Works from "../components/Works.vue";
+import Contact from "../components/Contact.vue";
 
 const router = useRouter();
 
@@ -77,6 +81,10 @@ onMounted(async () => {
           <!-- <Floating :ColorMode="ColorMode.preference" :modelPath="modelPath" /> -->
           <!-- <Flower class="z-100000" /> -->
           <About id="about" class="w-[100vw] absolute top-[150vh] left-0" />
+          <Skills id="skills" class="w-[100vw] absolute top-[190vh] left-0" />
+
+          <Works id="works" class="w-[100vw] absolute top-[290vh] left-0" />
+          <Contact id="contact" class="w-[100vw] absolute top-[400vh] left-0" />
         </div>
       </div>
     </div>

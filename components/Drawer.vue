@@ -32,16 +32,32 @@
   >
     <!-- Drawer content goes here -->
     <div class="flex flex-col h-full">
-      <div class="flex justify-center items-center h-full w-full">
-        <div class="text-center">
-          <button
-            @click="navigateToAbout"
-            class="text-2xl lg:text-5xl navText cursor-pointer"
-          >
-            About
-          </button>
-          <Navigations />
-        </div>
+      <div class="flex flex-col h-full w-full mt-[10%]">
+        <button
+          @click="navigateToAbout"
+          class="text-2xl lg:text-5xl navText cursor-pointer"
+        >
+          About
+        </button>
+        <button
+          @click="navigateToSkills"
+          class="text-2xl lg:text-5xl navText cursor-pointer"
+        >
+          Skills
+        </button>
+        <button
+          @click="navigateToWorks"
+          class="text-2xl lg:text-5xl navText cursor-pointer"
+        >
+          Works
+        </button>
+        <button
+          @click="navigateToContact"
+          class="text-2xl lg:text-5xl navText cursor-pointer"
+        >
+          Contact
+        </button>
+        <!-- <Navigations /> -->
       </div>
       <div class="mt-auto footer">
         <Footer />
@@ -64,6 +80,22 @@ const router = useRouter();
 
 const navigateToAbout = () => {
   router.push({ path: "/", hash: "#about" }).then(() => {
+    drawer.value = false;
+  });
+};
+
+const navigateToSkills = () => {
+  router.push({ path: "/", hash: "#skills" }).then(() => {
+    drawer.value = false;
+  });
+};
+const navigateToWorks = () => {
+  router.push({ path: "/", hash: "#works" }).then(() => {
+    drawer.value = false;
+  });
+};
+const navigateToContact = () => {
+  router.push({ path: "/", hash: "#contact" }).then(() => {
     drawer.value = false;
   });
 };
