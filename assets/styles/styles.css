@@ -27,9 +27,50 @@ li {
   list-style: none;
 }
 
+/* GIRD SHENANIGANS */
+
 .gridCellSkills {
   text-align: left;
   line-height: 20px;
 
   font-weight: 100;
+}
+
+/* IMAGES HOME */
+
+.greyscaleImg {
+  filter: grayscale(1);
+  transition: all 0.2s ease-in-out;
+}
+
+.greyscaleImg:hover {
+  transform: scale(1.02);
+  filter: grayscale(0);
+}
+
+/* CONTACT */
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.titleContact {
+  margin: 0px 0px 10px 0px;
+}
+
+.svgContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.svgContainer svg {
+  width: 100px;
+  margin: 70px 20px 0px 20px;
 }
