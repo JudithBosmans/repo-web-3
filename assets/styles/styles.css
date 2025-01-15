@@ -70,7 +70,17 @@ li {
   align-items: center;
 }
 
+.svgContainer svg:hover {
+  transform: scale(1.2);
+}
+
 .svgContainer svg {
   width: 100px;
   margin: 70px 20px 0px 20px;
+  transition: transform 0.3s ease;
+}
+
+.svg-container {
+  display: inline-block;
+  transition: transform 0.3s ease;
 }

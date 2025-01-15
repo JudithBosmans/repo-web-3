@@ -19,7 +19,7 @@
 
       <div class="col-start-6 col-end-9 row-start-1 row-end-5">
         <img
-          src="/img/covers/scarletCover.png"
+          src="/img/scarletCover.png"
           class="object-cover w-[100%] h-[100%] greyscaleImg"
         />
       </div>
