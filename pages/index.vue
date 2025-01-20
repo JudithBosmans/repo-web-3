@@ -81,10 +81,10 @@ onMounted(async () => {
           <!-- <Floating :ColorMode="ColorMode.preference" :modelPath="modelPath" /> -->
           <!-- <Flower class="z-100000" /> -->
           <About id="about" class="w-[100vw] absolute top-[150vh] left-0" />
-          <Skills id="skills" class="w-[100vw] absolute top-[190vh] left-0" />
+          <Skills id="skills" class="w-[100vw] absolute top-[210vh] left-0" />
 
-          <Works id="works" class="w-[100vw] absolute top-[290vh] left-0" />
-          <Contact id="contact" class="w-[100vw] absolute top-[400vh] left-0" />
+          <Works id="works" class="w-[100vw] absolute top-[320vh] left-0" />
+          <Contact id="contact" class="w-[100vw] absolute top-[440vh] left-0" />
         </div>
       </div>
     </div>
@@ -106,14 +106,13 @@ onMounted(async () => {
   animation: blink 0.7s step-end infinite;
 }
 
-/* Blurred text styling */
 .blur-text {
-  position: absolute; /* Place the blurred text behind the original */
+  position: absolute;
   top: 0;
   left: 0;
-  color: black; /* Black text for contrast */
-  opacity: 0.4; /* Adjust for a subtle blur */
-  filter: blur(8px); /* Apply Gaussian blur */
-  z-index: -1; /* Ensure it's below the main text */
+  color: black;
+  opacity: 0.4;
+  filter: blur(8px);
+  z-index: -1;
 }
 </style>

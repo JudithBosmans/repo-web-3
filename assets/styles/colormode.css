@@ -40,6 +40,7 @@ body {
 
 /* FONT TYPES */
 
+/* title */
 .light-mode .titleText {
   color: #161717;
 }
@@ -48,6 +49,16 @@ body {
   color: #dcd0be;
 }
 
+/* subtitle */
+.dark-mode .subtitle {
+  color: #dcd0be;
+}
+
+.light-mode .subtitle {
+  color: #161717;
+}
+
+/* body */
 .dark-mode .bodyText {
   color: #dcd0be;
 }
@@ -56,25 +67,62 @@ body {
   color: #161717;
 }
 
-/* */
+/* svg */
+.light-mode .svgContainer svg {
+  color: #161717;
+  fill: #161717;
+}
+
+.dark-mode .svgContainer svg {
+  color: #dcd0be;
+  fill: #dcd0be;
+}
+
+/* button */
+.light-mode .button {
+  border: 1px solid #161717;
+}
+
+.light-mode .button:hover {
+  color: rgb(99, 99, 99);
+}
+
+.dark-mode .button {
+  border: 1px solid #dcd0be;
+}
+
+.dark-mode .button:hover {
+  color: rgb(99, 99, 99);
+}
+
+/* arrow */
+.light-mode .arrow {
+  color: #161717;
+  fill: #161717;
+}
+
+.light-mode .arrow:hover {
+  color: rgb(99, 99, 99);
+  fill: rgb(99, 99, 99);
+}
+
+.dark-mode .arrow {
+  color: #dcd0be;
+  fill: #dcd0be;
+}
+
+.dark-mode .arrow:hover {
+  color: rgb(99, 99, 99);
+  fill: rgb(99, 99, 99);
+}
+
+/* background */
 .dark-mode body {
   background-color: #161715;
   color: #ebf4f1;
 }
 .dark-mode .backcolor {
   background-color: #161715;
-}
-
-.gray-mode body {
-  background-color: #bbbcb1;
-  color: #251603ef;
-}
-.gray-mode .backcolor {
-  background-color: rgba(20, 20, 20, 0.5);
-}
-
-.gray-mode .el-drawer {
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* Active link */

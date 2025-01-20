@@ -20,7 +20,7 @@
         <h2 class="bodyBold mb-5">Co-Owner</h2>
 
         <p>Bossies Wijnbar</p>
-        <p>Private family project</p>
+        <p>Family owned business</p>
         <p>Nov’22 - ...</p>
       </div>
       <div class="row-start-2 gridCellSkills">

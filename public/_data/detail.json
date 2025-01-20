@@ -1,0 +1,51 @@
+{
+  "works": [
+    {
+      "work1": {
+        "title": "Olympic Games - E€onomic Impact",
+        "img": "/img/cover1.png",
+        "skills": "D3.js, javascript, world.geo.json",
+        "desc": "A data visualisation about the financial impact of the Olympic Games throughout history. This was an assignment for a data visualisation course.",
+        "img1": "/img/cover1.png",
+        "img2": "/img/cover1.png",
+        "img3": "/img/cover1.png"
+      },
+      "work2": {
+        "title": "The Twice-Burned Library",
+        "img": "/img/cover2.png",
+        "skills": "book design, Indesign, UV print",
+        "desc": "A design for a book about the library of Louvain which burned twice; once in each world war. The book was written by Richard Ovenden. This was an assignment for a book design course.",
+        "img1": "/img/cover1.png",
+        "img2": "/img/cover1.png",
+        "img3": "/img/cover1.png"
+      },
+      "work3": {
+        "title": "The Fall Of Icarus",
+        "img": "/img/cover3.png",
+        "skills": "react, framer Motion, parallax",
+        "desc": "A website that takes you back to the Greek tale of Icarus and his father Daedalus. This website was for a frontend course.",
+        "img1": "/img/cover1.png",
+        "img2": "/img/cover1.png",
+        "img3": "/img/cover1.png"
+      },
+      "work4": {
+        "title": "Ligne Al-Ham-Bru",
+        "img": "/img/cover4.jpg",
+        "skills": "design, concept, physical",
+        "desc": "A project for Bright Brussels festival, using different media to represent the Alhambra neighbourhood in Brussels. This project was for a data visualisation course.",
+        "img1": "/img/cover1.png",
+        "img2": "/img/cover1.png",
+        "img3": "/img/cover1.png"
+      },
+      "work5": {
+        "title": "Art",
+        "img": "/img/sketches/1.png",
+        "skills": "sketching, watercolour",
+        "desc": "A selection of some personal drawing and sketching work.",
+        "img1": "/img/cover1.png",
+        "img2": "/img/cover1.png",
+        "img3": "/img/cover1.png"
+      }
+    }
+  ]
+}

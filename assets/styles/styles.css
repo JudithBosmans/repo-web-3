@@ -48,6 +48,17 @@ li {
   filter: grayscale(0);
 }
 
+/* BUTTON */
+
+.button {
+  border-radius: 20px;
+  padding: 5px 8px;
+}
+
+.button:hover {
+  border: 1px solid rgb(99, 99, 99);
+}
+
 /* CONTACT */
 
 .contactContainer {
