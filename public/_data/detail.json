@@ -6,45 +6,49 @@
         "img": "/img/cover1.png",
         "skills": "D3.js, javascript, world.geo.json",
         "desc": "A data visualisation about the financial impact of the Olympic Games throughout history. This was an assignment for a data visualisation course.",
-        "img1": "/img/cover1.png",
-        "img2": "/img/cover1.png",
-        "img3": "/img/cover1.png"
+        "img1": "/img/oly1.png",
+        "img2": "/img/oly2.png",
+        "img3": "/img/oly3.png",
+        "link": "https://olygamesfinance.netlify.app/"
       },
       "work2": {
         "title": "The Twice-Burned Library",
         "img": "/img/cover2.png",
         "skills": "book design, Indesign, UV print",
         "desc": "A design for a book about the library of Louvain which burned twice; once in each world war. The book was written by Richard Ovenden. This was an assignment for a book design course.",
-        "img1": "/img/cover1.png",
-        "img2": "/img/cover1.png",
-        "img3": "/img/cover1.png"
+        "img1": "/img/book1.png",
+        "img2": "/img/book2.png",
+        "img3": "/img/book3.png",
+        "link": ""
       },
       "work3": {
         "title": "The Fall Of Icarus",
         "img": "/img/cover3.png",
         "skills": "react, framer Motion, parallax",
         "desc": "A website that takes you back to the Greek tale of Icarus and his father Daedalus. This website was for a frontend course.",
-        "img1": "/img/cover1.png",
-        "img2": "/img/cover1.png",
-        "img3": "/img/cover1.png"
+        "img1": "/img/ica1.png",
+        "img2": "/img/ica2.png",
+        "img3": "/img/ica3.png",
+        "link": "https://the-fall-of-icarus.onrender.com/topic"
       },
       "work4": {
         "title": "Ligne Al-Ham-Bru",
         "img": "/img/cover4.jpg",
         "skills": "design, concept, physical",
         "desc": "A project for Bright Brussels festival, using different media to represent the Alhambra neighbourhood in Brussels. This project was for a data visualisation course.",
-        "img1": "/img/cover1.png",
-        "img2": "/img/cover1.png",
-        "img3": "/img/cover1.png"
+        "img1": "/img/bus1.png",
+        "img2": "/img/bus2.jpg",
+        "img3": "/img/bus3.png",
+        "link": ""
       },
       "work5": {
         "title": "Art",
         "img": "/img/sketches/1.png",
         "skills": "sketching, watercolour",
         "desc": "A selection of some personal drawing and sketching work.",
-        "img1": "/img/cover1.png",
-        "img2": "/img/cover1.png",
-        "img3": "/img/cover1.png"
+        "img1": "/img/sketches/7.png",
+        "img2": "/img/draw2.png",
+        "img3": "/img/sketches/3.png"
       }
     }
   ]

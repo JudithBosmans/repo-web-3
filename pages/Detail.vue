@@ -24,25 +24,26 @@
   </nuxt-link>
 
   <main class="flex flex-col items-center justify-center bodyText mb-[20vh]">
-    <img
-      :src="work.img"
-      class="w-[50vh] h-[50vh] mx-auto mt-[5%] object-cover"
-      :alt="work.title"
-    />
+    <nuxt-link :to="work.link" target="_blank">
+      <img
+        :src="work.img"
+        class="w-[50vh] h-[50vh] mx-auto mt-[5%] object-cover"
+        :alt="work.title"
+    /></nuxt-link>
     <div
       class="grid grid-cols-3 grid-rows-1 gap-4 w-[90%] mx-auto mt-[5%] bodyText"
     >
       <div>
         <p class="h-[10vh]">{{ work.title }}</p>
-        <img :src="work.img1" class="w-[25vw] h-[25vw] mt-3" />
+        <img :src="work.img1" class="w-[25vw] h-[25vw] mt-[8%] object-cover" />
       </div>
       <div>
         <p class="h-[10vh]">{{ work.skills }}</p>
-        <img :src="work.img1" class="w-[25vw] h-[25vw] mt-3" />
+        <img :src="work.img2" class="w-[25vw] h-[25vw] mt-[8%] object-cover" />
       </div>
       <div>
-        <p class="h-[10vh] w-[70%]">{{ work.desc }}</p>
-        <img :src="work.img1" class="w-[25vw] h-[25vw] mt-3" />
+        <p class="h-[10vh] w-[80%]">{{ work.desc }}</p>
+        <img :src="work.img3" class="w-[25vw] h-[25vw] mt-[8%] object-cover" />
       </div>
     </div>
   </main>

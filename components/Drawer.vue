@@ -60,8 +60,8 @@
         <!-- <Navigations /> -->
       </div>
       <div class="mt-auto footer">
-        <Footer />
-        <UtilNav />
+        <!-- <Footer /> -->
+        <!-- <UtilNav /> -->
       </div>
     </div>
   </el-drawer>
