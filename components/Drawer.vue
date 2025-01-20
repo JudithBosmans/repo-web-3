@@ -60,7 +60,7 @@
         <!-- <Navigations /> -->
       </div>
       <div class="mt-auto footer">
-        <!-- <Footer /> -->
+        <Footer />
         <!-- <UtilNav /> -->
       </div>
     </div>
